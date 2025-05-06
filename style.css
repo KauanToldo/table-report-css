@@ -1,7 +1,3 @@
-tbody {
-    background-color: red !important;
-}
-
-.rowcell {
-    background-color: blue !important;
+td, th {
+    border: 1px solid black;
 }
