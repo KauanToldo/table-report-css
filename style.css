@@ -15,6 +15,10 @@ td, th {
     padding: 10px 5px;
 }
 
+th {
+  position: sticky;
+}
+
 [id$="av_rol.field" i] {
   border-right: 1px solid black;
 }
@@ -43,9 +47,157 @@ td {
   padding: 10px 20px;
 }
 
-td:nth-child(even) {
+tr:nth-child(odd) {
+  background-color: #e9e9e9 !important;
+}
+
+/* td:nth-child(even) {
+  border-right: none;
+} */
+
+/* td.measure:nth-child(even) {
   border-right: none;
 }
+
+td.measure:nth-child(odd) {
+  border-right: 1px solid black;
+} */
+
+/* tbody tr:nth-child(1) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(1) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(9) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(9) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(17) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(17) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(19) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(19) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(24) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(24) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(26) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(26) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(28) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(28) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(33) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(33) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(35) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(35) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(38) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(38) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(40) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(40) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(42) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(42) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(44) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(44) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(46) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(46) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(48) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(48) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(50) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(50) td:nth-child(odd) {
+  border-right: none;
+}
+
+tbody tr:nth-child(53) td:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(53) td:nth-child(odd) {
+  border-right: none;
+} */
 
 #tooltip {
     position: absolute;
