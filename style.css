@@ -1,6 +1,50 @@
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 10;
+  /* overflow-x: hidden; */
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 td, th {
-    border-right: 1px solid black;
     padding: 10px 5px;
+}
+
+[id$="av_rol.field" i] {
+  border-right: 1px solid black;
+}
+
+[id$="resultado.field" i] {
+  border-left: 1px solid black;
+}
+
+[id$="resultado.pivot0" i] {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+[id$="calculos_dre.descricao_1.field"] {
+  border-right: 1px solid black;
+  text-align: center !important;
+}
+
+[id$="calculos_dre.descricao_2.field"] {
+  border-right: 1px solid black;
+  text-align: center !important;
+}
+
+td {
+  border-right: 1px solid black;
+  padding: 10px 20px;
+}
+
+td:nth-child(even) {
+  border-right: none;
 }
 
 #tooltip {
@@ -39,29 +83,36 @@ td, th {
   .hover {
     background-color: #ffffbb;
   }
+
+  .reportable {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
   
-  .reportTable {
+  /* .reportTable {
     font-family: Open Sans, Helvetica, Arial, Noto Sans TC, Noto Sans SC,
       sans-serif;
     border-collapse: separate;
     border-spacing: 3px;
     table-layout: fixed;
-  }
+  } */
   
   th.headerCell {
     border-bottom: 1px solid #000000 !important;
     font-weight: bold;
-    padding: 5px;
+    background-color: #CCD8E4;
+  }
+
+  th.headerCell.measure {
+    text-align: center !important;
+    background-color: #EDE0D4 !important;
   }
   
   .headerCell.merged {
     text-align: center !important;
-    background-color: #ffffff !important;
   }
   
   .headerCell.transposed.dimension.merged {
     text-align: center !important;
-    background-color: #ffffff !important;
   }
   
   .indexCell.transposed {
@@ -74,7 +125,6 @@ td, th {
   
   .rowCell {
     vertical-align: super;
-    padding-left: 5px;
   }
   
   .rowCell.merged {
@@ -112,6 +162,7 @@ td, th {
   
   .total {
     border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
     font-weight: bold !important;
   }
   
