@@ -113,8 +113,12 @@ tr:nth-child(odd) {
   }
   
   .hover {
-    background-color: #ffffbb !important;
+    background-color: #00b0f04d !important;
     z-index: 10;
+  }
+
+  tr:hover {
+    background-color: #00b0f04d !important;
   }
 
   .reportable {
@@ -124,12 +128,15 @@ tr:nth-child(odd) {
   th.headerCell {
     border-bottom: 1px solid #000000 !important;
     font-weight: bold;
-    background-color: #5eaaf6;
+    background-color: #001e50;
+    color: white;
+    text-align: center;
   }
 
   th.headerCell.measure {
     text-align: center !important;
-    background-color: #a7eb85 !important;
+    background-color: #007BFF !important;
+    color: white;
   }
   
   .headerCell.merged {
