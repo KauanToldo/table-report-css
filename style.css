@@ -11,7 +11,7 @@ table {
 }
 
 td, th {
-    padding: 10px 5px;
+    padding: 10px 2px;
 }
 
 th {
@@ -43,7 +43,7 @@ th {
 
 td {
   border-right: 1px solid black;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 tr:nth-child(odd) {
@@ -84,7 +84,7 @@ tr:nth-child(odd) {
   }
   
   .hover {
-    background-color: #ffffbb;
+    background-color: #ffffbb !important;
     z-index: 999;
   }
 
