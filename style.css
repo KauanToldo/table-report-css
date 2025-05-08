@@ -123,12 +123,20 @@ th {
     display: none;
   }
 
-  #tooltip tbody tr {
+  /* #tooltip tbody tr {
     border-bottom: 1px solid gray;
   }
 
   #tooltip tbody td:last-child {
     border-bottom: none;
+  }
+
+  #tooltip tbody td:last-child {
+    border-bottom: none;
+  } */
+
+  #tooltip tbody tr td {
+    border: 1px solid black !important;
   }
 
   /* tr:hover {
