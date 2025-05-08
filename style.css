@@ -116,6 +116,18 @@ th {
     background-color: #00b0f04d !important;
   }
 
+  #tooltip tbody tr:nth-child(2) {
+    display: none;
+  }
+
+  #tooltip tbody tr {
+    border-bottom: 1px solid gray;
+  }
+
+  #tooltip tbody td:last-child {
+    border-bottom: none;
+  }
+
   /* tr:hover {
     background-color: #00b0f04d !important;
   }
