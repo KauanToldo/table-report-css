@@ -201,7 +201,8 @@ th {
   }
   
   .negative {
-    color: red;
+    /* color: red; */
+    color: black
   }
   
   .estimate {
